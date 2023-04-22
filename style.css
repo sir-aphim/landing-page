@@ -19,6 +19,7 @@ body {
     justify-content: space-between;
     padding: 33px;
     height: 150px;
+
 }
 
 .logo {
@@ -30,18 +31,19 @@ body {
 }
 
 
+
 .links {
     display: flex;
     gap: 16px;
     font-size: 18px;
     color: #E5E7EB;
     padding: 0;
-    margin: 0;
+    margin-right: 100px;
 }
 
 .welcome {
     display: flex;
-    gap: 200px;
+    gap: 130px;
     justify-content: center;
     align-items: center;
     background: #1F2937;
@@ -58,6 +60,16 @@ body {
         width: 600px;
         height: 800px;
         margin-right: 100px;
+    }
+
+    .main > h1 {
+        font-size: 48px;
+        color: #F9FAF8;
+    }
+
+    .main > p {
+        font-size: 18px;
+        color: #E5E7EB;
     }
 
 a {
