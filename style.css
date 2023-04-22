@@ -22,10 +22,11 @@ body {
 }
 
 .logo {
+    box-sizing: border-box;
     width: 155px;
     filter: invert();
     margin-left: 100px;
-    height: 155px;
+    height: 150px;
 }
 
 
@@ -39,8 +40,25 @@ body {
 }
 
 .welcome {
-
+    display: flex;
+    gap: 200px;
+    justify-content: center;
+    align-items: center;
+    background: #1F2937;
 }
+
+.welcome > .main {
+    box-sizing: border-box;
+    width: 520px;
+    height: 400px;
+}
+
+    .welcome > .sneakpeek {
+        box-sizing: border-box;
+        width: 600px;
+        height: 800px;
+        margin-right: 100px;
+    }
 
 a {
     text-decoration: none;
