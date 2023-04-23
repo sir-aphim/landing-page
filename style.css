@@ -1,3 +1,5 @@
+/*TODO: Add background video of the trailer in the welcome part of the page */
+
 html {
     height: 100%;
   }
@@ -16,17 +18,15 @@ body {
 .header {
     display: flex;
     background: #1F2937;
-    justify-content: space-between;
+    justify-content: space-around;
     padding: 33px;
     height: 150px;
-
 }
 
 .logo {
     box-sizing: border-box;
     width: 155px;
     filter: invert();
-    margin-left: 100px;
     height: 150px;
 }
 
@@ -38,7 +38,7 @@ body {
     font-size: 18px;
     color: #E5E7EB;
     padding: 0;
-    margin-right: 100px;
+
 }
 
 .welcome {
@@ -46,7 +46,7 @@ body {
     gap: 130px;
     justify-content: center;
     align-items: center;
-    background: #1F2937;
+    background: #324a6d;
 }
 
 .welcome > .main {
