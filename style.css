@@ -41,6 +41,10 @@ body {
     margin: 0;
 }
 
+    .links a:hover {
+        color: white;
+    }
+
 .welcome {
     display: flex;
     justify-content: space-around;
@@ -86,9 +90,11 @@ body {
     .main > p {
         font-size: 18px;
         color: #E5E7EB;
+        margin-top: 32px;
+        margin-bottom: 32px;
     }
 
-    button.newsletter.up {
+    button {
         background:#014f94;
         border: 1px solid #3882F6;
         border-radius: 8px;
@@ -96,6 +102,11 @@ body {
         color: white;
         font-size: 18px;
         font-weight: 800;
+        transition: transform 200ms linear;
+    }
+
+    button:hover {
+        transform: scale(1.08);
     }
 
 .info {
