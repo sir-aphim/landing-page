@@ -1,5 +1,6 @@
-/*TODO: Add background video of the trailer in the welcome part of the page;*/
-/*TODO II: Maybe also add some hyperspace effect to the image of the 15th Doctor? */
+/*TODO: Maybe also add some hyperspace effect to the image of the 15th Doctor? */
+/*TODO: Fix the TARDIS in the info div... right below welcome. The windows and the little lamp at the top shouldn't be transparent. */
+
 
 html {
     height: 100%;
@@ -26,26 +27,23 @@ body {
 
 .logo {
     box-sizing: border-box;
-    width: 155px;
-    filter: invert();
-    height: 150px;
+    width: 206px;
+    height: 60px;
 }
-
 
 
 .links {
     display: flex;
     gap: 16px;
     font-size: 18px;
-    color: #E5E7EB;
+    color: #b1bcd1;
     padding: 0;
-
+    margin: 0;
 }
 
 .welcome {
     display: flex;
-    gap: 130px;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     background: rgba(0, 0, 0, 0.6);
     position: relative;
@@ -75,8 +73,9 @@ body {
 
     .welcome > .sneakpeek {
         box-sizing: border-box;
-        width: 600px;
+        width: 635px;
         height: 800px;
+        
     }
 
     .main > h1 {
