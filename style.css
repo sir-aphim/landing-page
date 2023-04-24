@@ -47,8 +47,25 @@ body {
     gap: 130px;
     justify-content: center;
     align-items: center;
-    background: #324a6d;
+    background-color: #00000095;
+    position: relative;
+    min-height: 100vh;
+    min-width: 100vh;
+    overflow: hidden;
 }
+
+.video-bg {
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+    
+ 
+
+
 
 .welcome > .main {
     box-sizing: border-box;
@@ -131,7 +148,8 @@ body {
     }
 
         .fifteen.doctor > .doc {
-            border-top: 5px double #014f94;
+            border-top: 3px double #ffffff;
+            border-bottom: 3px double #ffffff;
             box-shadow:
             0 0 10px #014f94,
             0 0 4px #0054a2,
