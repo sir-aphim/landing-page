@@ -38,7 +38,6 @@ body {
     font-size: 18px;
     color: #b1bcd1;
     padding: 0;
-    margin: 0;
 }
 
     .links a:hover {
@@ -110,6 +109,7 @@ body {
     }
 
 .info {
+    padding: 25px;
     background: black;
     background-image: url(./images/tardis.png);
     background-position-x: 100px;
@@ -169,6 +169,22 @@ body {
             0 0 15px  white,
             0 0 32px #00518f
         }
+
+.quote {
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #E5E7EB;
+}
+
+    .quote > .phrase {
+        font-size: 36px;
+        width: 84%;
+        padding: 40px;
+
+    }
 
 
 a {
