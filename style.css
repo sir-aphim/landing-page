@@ -110,11 +110,11 @@ body {
 
 .info {
     padding: 25px;
-    background: black;
     background-image: url(./images/tardis.png);
     background-position-x: 100px;
     background-attachment: fixed;
     background-size: 100%;
+    gap: 25px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -122,7 +122,6 @@ body {
 }
 
     .info h1 {
-        color: white;
         font-size: 36px;
         font-weight: 800;
     }
@@ -150,10 +149,8 @@ body {
 
     .doctor > p {
         text-align: center;
-        margin-top: 5px;
         width: 165px;
         font-size: 15px;
-        color: #ffffff;
     } 
 
     .fifteen.doctor {
@@ -180,12 +177,21 @@ body {
 }
 
     .quote > .phrase {
-        font-size: 36px;
-        width: 84%;
+        width: 65%;
         padding: 40px;
-
     }
 
+    blockquote {
+        color: rgb(88, 88, 88);
+        font-size: 36px;
+    }
+
+    figcaption {
+        color: black;
+        text-align: end;
+        font-size: 20px;
+        font-weight: 800;
+    }
 
 a {
     text-decoration: none;
