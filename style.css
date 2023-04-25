@@ -110,6 +110,7 @@ body {
     }
 
 .info {
+    background: black;
     background-image: url(./images/tardis.png);
     background-position-x: 100px;
     background-attachment: fixed;
@@ -119,7 +120,9 @@ body {
     justify-content: center;
     align-items: center;
 }
+
     .info h1 {
+        color: white;
         font-size: 36px;
         font-weight: 800;
     }
@@ -127,14 +130,14 @@ body {
 .doc {
     width: 167px;
     height: 245px;
-    border-radius: 30px;
+    border-radius: 75px;
     box-shadow:
             0 0 10px #014f94,
             0 0 4px #0054a2,
             0 0 10px #00518f,
-            0 0 42px #ffffff,
-            0 0 42px #ffffff,
-            0 0 42px #ffffff
+            0 0 22px #00518f,
+            0 0 37px #00518f,
+            0 0 27px #00518f
     
 }
 .timeline {
@@ -149,8 +152,8 @@ body {
         text-align: center;
         margin-top: 5px;
         width: 165px;
-        font-size: 18px;
-        color: #000000;
+        font-size: 15px;
+        color: #ffffff;
     } 
 
     .fifteen.doctor {
@@ -158,19 +161,13 @@ body {
     }
 
         .fifteen.doctor > .doc {
-            border-top: 3px double #ffffff;
-            border-bottom: 3px double #ffffff;
             box-shadow:
-            0 0 10px #014f94,
-            0 0 4px #0054a2,
-            0 0 21px #00518f,
-            0 0 42px #ffffff,
-            0 0 82px #ffffff,
-            0 0 32px #ffffff
-        }
-
-        .fifteen.doctor > p {
-            color: black;
+            0 0 10px white,
+            0 0 4px white,
+            0 0 21px white,
+            0 0 12px white,
+            0 0 15px  white,
+            0 0 32px #00518f
         }
 
 
