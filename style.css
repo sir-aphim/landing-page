@@ -1,5 +1,4 @@
-/*TODO: Maybe also add some hyperspace effect to the image of the 15th Doctor? */
-/*TODO: Fix the TARDIS in the info div... right below welcome. The windows and the little lamp at the top shouldn't be transparent. */
+/*TODO: Compare the flex-modal exercise to the newsletter button below. Maybe there's an easier way to come around that?*/
 
 
 html {
@@ -177,6 +176,7 @@ body {
 }
 
     .quote > .phrase {
+        margin: 50px;
         width: 65%;
     }
 
@@ -186,7 +186,7 @@ body {
     }
 
     figcaption {
-        margin-top: 10px;
+        margin-top: 25px;
         color: black;
         text-align: end;
         font-size: 20px;
@@ -208,13 +208,24 @@ body {
     background-color: #00518f;
 }
     .click > h4 {
+        color: white;
         margin: 0;
     }
 
     .bottom-half {
+        color: white;
         display: flex;
         justify-content: space-between;
     }
+
+        .bottom-half > p {
+            margin-top: 5px;
+        }
+
+        .bottom-half > button {
+            background-color: #00518f;
+            border-color: white;
+        }
 
 a {
     text-decoration: none;
