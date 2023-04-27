@@ -20,7 +20,7 @@ body {
     display: flex;
     background: #014f94;
     justify-content: space-between;
-    padding: 33px;
+    padding: 25px;
     height: auto;
 }
 
@@ -92,7 +92,7 @@ body {
         margin-bottom: 32px;
     }
 
-    button {
+    .newsletter {
         background:#014f94;
         border: 1px solid #3882F6;
         border-radius: 8px;
@@ -176,8 +176,9 @@ body {
 }
 
     .quote > .phrase {
+        text-align: justify;
         margin: 50px;
-        width: 65%;
+        width: 75%;
     }
 
     blockquote {
@@ -198,17 +199,27 @@ body {
     justify-content: center;
     align-items: center;
     padding: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
 
 }
 
 .click {
     border-radius: 10px;
     padding: 50px;
+    padding-left: 135px;
+    padding-right: 135px;
     width: 800px;
-    background-color: #00518f;
+    background-color: #007ddc;
+    color: white;
 }
     .click > h4 {
         color: white;
+        font-size: 18px;
+        margin: 0;
+    }
+
+    .click > p {
         margin: 0;
     }
 
@@ -216,16 +227,27 @@ body {
         color: white;
         display: flex;
         justify-content: space-between;
+        align-items: center;
     }
 
-        .bottom-half > p {
-            margin-top: 5px;
+        button.newsletter.bottom {
+            padding-left: 30px;
+            padding-right: 30px;
+            background-color: #007ddc;
+            border-color: white;
+            margin-bottom: auto;
+            
         }
 
-        .bottom-half > button {
-            background-color: #00518f;
-            border-color: white;
-        }
+    .footer {
+        display: flex;
+        justify-content: center;
+        background: #00518f;
+        color: white;
+        font-size: 18px;
+        padding: 25px;
+        box-shadow: 2px 2px 10px rgba(0,0,0,.2);
+    }
 
 a {
     text-decoration: none;
